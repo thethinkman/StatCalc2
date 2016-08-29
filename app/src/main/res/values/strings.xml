@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ameer Jalal - Stat Calculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="buttonDataLoad">Load data.txt</string>
+    <string name="tempTextView">Please select a data file to begin.</string>
+    <string name="title_activity_mean_dev">Mean and Standard Deviation</string>
+    <string name="meanText">Mean: </string>
+    <string name="stdevText">Standard Deviation:</string>
+    <string name="meanDevButton"><![CDATA[Mean & Standard Deviation]]></string>
+    <string name="title_activity_calc_like">Log Likelihood</string>
+    <string name="calcLikeButtonText">Log Likelihood</string>
+    <string name="meanText2">Minimum Mean</string>
+    <string name="stdevGivenText">Standard Deviation</string>
+    <string name="IncStatic">Increment</string>
+    <string name="logText">Log Likelihood</string>
+    <string name="meanmaxText">Maximum Mean</string>
+    <string name="logLikeText">Log Likelihood</string>
+    <string name="findLogText">Find Log Likelihood</string>
+    <string name="title_activity_calc_max">Maximum Likelihood</string>
+    <string name="maxLikeButton">Maximum Likelihood</string>
+    <string name="calcMaxLike">Calculate Maximum Likelihood</string>
+    <string name="dataChooseTxt">Choose Data File</string>
+
+</resources>

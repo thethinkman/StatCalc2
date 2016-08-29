@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jalal.ameer.statcalc2" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="jalal.ameer.statcalc2.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="jalal.ameer.statcalc2.MeanDev"
+            android:label="@string/title_activity_mean_dev"
+            android:parentActivityName="jalal.ameer.statcalc2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="jalal.ameer.statcalc2.MainActivity" />
+        </activity>
+        <activity
+            android:name="jalal.ameer.statcalc2.CalcLike"
+            android:label="@string/title_activity_calc_like"
+            android:parentActivityName="jalal.ameer.statcalc2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="jalal.ameer.statcalc2.MainActivity" />
+        </activity>
+        <activity
+            android:name="jalal.ameer.statcalc2.CalcMax"
+            android:label="@string/title_activity_calc_max"
+            android:parentActivityName="jalal.ameer.statcalc2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="jalal.ameer.statcalc2.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
